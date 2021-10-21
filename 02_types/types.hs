@@ -8,7 +8,7 @@ circumference r = 2 * pi * r
 identity :: Num a => a -> a
 identity x = 1
 
--- The :t command is used in prelude to get the type of an expression
+-- The :t command is used in GHCi to get the type of an expression
 -- The :: character can be read as 'having type of'
 
 -- Int is a bounded integer related to the machine's word size
